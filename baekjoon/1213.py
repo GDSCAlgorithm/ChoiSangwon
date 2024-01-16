@@ -21,4 +21,3 @@ for char in sorted(freq.keys()):
 
 palindrome = first_half + mid_char + first_half[::-1]
 print(palindrome)
-
