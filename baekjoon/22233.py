@@ -8,13 +8,13 @@ keyword = {}
 unUse=m
 
 for i in range(m):
-    keyword[input().rstrip()]=0
+    keyword[input().rstrip()]=False
 
 for i in range(n):
     memo = input().rstrip().split(',')
     for j in memo:
         if(j in keyword):
-            if(keyword[j]==0):
-                keyword[j]+=1
+            if(not keyword[j]):
+                keyword[j]=True
                 unUse-=1
     print(unUse)
