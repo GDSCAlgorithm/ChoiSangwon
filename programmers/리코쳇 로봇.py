@@ -15,7 +15,6 @@ def solution(board):
                 return ci-dr, cj-dc
             i,j=ci,cj
                 
-
     for i in range(row):
         for j in range(col):
             if board[i][j]== 'R':
