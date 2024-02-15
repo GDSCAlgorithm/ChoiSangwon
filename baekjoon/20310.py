@@ -1,7 +1,6 @@
-arr = input()
-one_len = arr.count('1')
-zero_len = len(arr)-one_len
-res=arr
+res = input()
+one_len = res.count('1')
+zero_len = len(res)-one_len
 count=0
 i=0
 while True:
